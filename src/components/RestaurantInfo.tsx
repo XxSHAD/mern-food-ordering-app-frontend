@@ -13,7 +13,7 @@ type Props = {
   restaurant: Restaurant;
 };
 
-const RestaurantInfo = ({ restaurant }: Props) => {
+const  RestaurantInfo = ({ restaurant }: Props) => {
     useEffect(() => {
         console.log('we here')
     }, []);
